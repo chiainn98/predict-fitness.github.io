@@ -1,0 +1,147 @@
+:root {
+	--main-color: #3f51b5;
+	--background-color: #E3EDFD;
+}
+
+body {
+	background-color: var(--background-color);
+	font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.unfit {
+	color: #FF0000;
+	font-size: 66px;
+}
+
+.average {
+	color: #FFD700;
+	font-size: 66px;
+}
+
+.fit {
+	color: #00A000;
+	font-size: 60px;
+}
+
+.header {
+	color: #FFFFFF;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: var(--main-color);
+	font-size: 80px;
+	font-weight: normal;
+	line-height: 48px;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 4px 4px 8px var(--main-color);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-body {
+	border-radius: 10px;
+	border: 1px solid #D3D3D3;
+	background-color: #FFFFFF;
+	padding-top: 12px;
+	padding-bottom: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+	max-width: 642px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.question {
+	font-family: 'Google Sans', Roboto, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	margin-left: 1px;
+}
+	
+.answer {
+	font-family: 'Google Sans',Roboto,Arial,sans-serif;
+	font-size: 16px;
+	letter-spacing: .1px;
+	line-height: 24px;
+	min-height: 5px;
+	}
+
+.required {
+	color: #D93025;
+	padding-left: 0.5em;
+}
+	
+.label {
+	padding: 0.5em;
+	display: inline-flex;
+	width: 600px;
+}
+
+.radio-inline {
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	display: inline-flex;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+	
+td {
+	text-align: center;
+}
+
+.button-card {
+	background-color: #FFFFFF00;
+	width: 100%;
+	max-width: 682px;
+	overflow: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.submit-button {
+	border-radius: 10px;
+	border: 1px solid var(--main-color);
+	background: var(--main-color);
+	color: #FFFFFF;
+	padding: 10px 10px;
+	text-align: center;
+	width: 120px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	float: left;
+}
+	
+.clear-button {
+	border-radius: 10px;
+	border: 1px solid var(--main-color);
+	background: #FFFFFF;
+	color: var(--main-color);
+	padding: 10px 10px;
+	text-align: center;
+	width: 120px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	float: right;
+}
+	
+.home-button {
+	border-radius: 10px;
+	border: 1px solid var(--main-color);
+	background: var(--main-color);
+	color: #FFFFFF;
+	padding: 10px 10px;
+	text-align: center;
+	width: 180px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}

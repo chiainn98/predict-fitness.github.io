@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Fitness Level Prediction</title>
+	<link rel="stylesheet" href="../static/CSS/style.css">
+</head>
+
+<body>
+    <center>
+		<h1 class="header">Fitness Level Prediction</h1>
+
+		{%if data == 1%}
+		<div class="card-body">
+			<h2>Your predicted fitness level is</h2>
+			<h1 class="unfit">Unfit</h1>
+		</div>
+
+		{%elif data == 2%}
+		<div class="card-body">
+			<h2>Your predicted fitness level is</h2>
+			<h1 class="average">Average</h1>
+		</div>
+
+		{%else%}
+		<div class="card-body">
+			<h2>Your predicted fitness level is</h2>
+			<h1 class="fit">Fit</h1>
+		</div>
+
+		{%endif%}
+
+		<br><br><br>
+		<button class="home-button" onclick="window.location.href='/'">Go to Homepage</button>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
